@@ -1,4 +1,5 @@
 //conceptos sobre los operadores y tipos que existen en javascript
+// trabajos en equipo con este jijuna de fryan26@gmail.com  // el ama lizzzz ++++++++
 
 //operador aritmetico
 //Con ellos podemos utilizar operadores aritméticos para realizar cálculos matemáticos en los operandos.
@@ -27,5 +28,15 @@
 
 //operador relacionales
 //Un operador relacional compara sus operandos y devuelve un valor Boolean basado en si la comparación es verdadera.
-//in, 
+//in demostrando si es verdadero o no 
+
+//operador bitwin
+//tambien llamada bit a bit, opera sobre números binarios a nivel de sus bits individuales. Es una acción 
+//primitiva rápida.
+//& and, | or, ^ xor, ~ not, << desplazamiento a la derecha, >> desplazamiento a la izquierda
+
+//JavaScript es uno de los lenguajes de programación más populares en la web hoy en día. Tiene todo tipo de usos
+//desde crear sitios web, aplicaciones web o aplicaciones de servidor a juegos, aplicaciones móviles, etc. Pero
+//es importante conocer y estar familiarizado con los tipos de datos y operadores aceptados. Del mismo modo que 
+//cualquier cosa que se nos ocurra lo podemos hacer con JavaScript, cualquier error tonto puede suceder.
 
