@@ -58,7 +58,7 @@ function palimdromo(cadena){
 let array = cadena.split("");
 let reverse = array.reverse("");
 
-return cadena == reverse.join("") ? "si es palimdromo" : "no es palimdromo"
+return cadena == reverse.join("")? "si es palimdromo" : "no es palimdromo"
 }
 console.log(palimdromo("ada"))
 console.log(palimdromo("alvarez"))
