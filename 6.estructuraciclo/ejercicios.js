@@ -43,11 +43,35 @@ for(let i = 0; i < text.length; i++){
 }
 console.log('tienes', contar, 'vocales')
 
-//hacer un programa que me muestre el factorral de un numero
+//hacer un programa que me muestre el factorial de un numero
 //5!=5*4*3*2*1
+let numero = 5
+let total = 1
+for(let i = 1; i <= (numero); i++){
+    total = total * i
+}
+console.log(total)
 
 //hacer un programa que me  determine si un texto es palimdromo
 //ada = ada
+function palimdromo(cadena){
+let array = cadena.split("");
+let reverse = array.reverse("");
+
+return cadena == reverse.join("") ? "si es palimdromo" : "no es palimdromo"
+}
+console.log(palimdromo("ada"))
+console.log(palimdromo("alvarez"))
 
 //hacer un programa que muestre los "n" numeros de la serie de fibonacci
+let a = 0
+let b = 1
+let c = 0
+for(let i = 0; i < 7; i++){
+    console.log(a)
+    c = a + b
+    a = b
+    b = c
+} 
+
 //1-2-3-5-8-13-21-34
