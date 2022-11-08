@@ -2,23 +2,37 @@
 
 //contarvocales('eucalipto')//5
 
-function contarvocales(texto){
-    const vocales = 'aeiou'
-    let cantidadvocales = 0
-    for(const letra of texto){
-        if(vocales.includes(letra.tolowerCase)){
-            cantidadvocales++;
+const contarVocales = palabra => {
+    const vocales = "aáeéiíoóuú";
+    let cantidadVocales = 0;
+    for (const letra of palabra) {
+        if (vocales.includes(letra.toLowerCase())) {
+            cantidadVocales++;
         }
     }
-    return cantidadvocales
+    return cantidadVocales
 }
-contarvocales()
+
+const cadena = 'interesante el mundo que se encuentra en el universo'
+const vocales = contarVocales(cadena)
+console.log(vocales)
 
 //function calculadora(num1,num2,operacion)(return total)
-function resta(a, b){
-    return a - b;
+function sumar(a,b,operacion){
+    
+    if(operacion == 'suma'){
+        total = a + b;
+    }else if( operacion == 'resta'){
+    total = a - b;
+    }else if(operacion == 'multiplicacion'){
+        total = a * b;
+    }else if(operacion == 'divicion'){
+        total = a /b ;
+        
+    }  
+    return total
+    
 }
-const resultado = resta(45, 12)
-    console.log(resultado)
+console.log(sumar(6,2,"resta"))
 
 //calculadora(45,12,'resta')//33
